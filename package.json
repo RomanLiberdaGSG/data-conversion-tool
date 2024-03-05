@@ -1,0 +1,23 @@
+{
+  "name": "data-conversion-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node dist/index.js"
+  },
+  "keywords": [],
+  "author": "Roman Liberda",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.24",
+    "csv-parse": "^5.5.5",
+    "json2csv": "^6.0.0-alpha.2",
+    "prompt-sync": "^4.2.0",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/json2csv": "^5.0.7",
+    "@types/prompt-sync": "^4.2.3"
+  }
+}
